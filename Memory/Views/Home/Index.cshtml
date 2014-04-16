@@ -1,0 +1,22 @@
+﻿@model List<Memory.Models.GamePiece>
+@{
+    ViewBag.Title = "HomePage";}
+@{
+
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<section id="gameArea">    
+    @foreach (var gp in Model) { 
+    <div class="cardContainer" >
+            <div class="DBflipper">
+                <div class="cardFront">
+
+                </div>
+                <div class="cardBack">
+                    @gp.value
+                </div>
+            </div>
+    </div>    
+    }
+</section>
+
