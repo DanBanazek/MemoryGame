@@ -1,1 +1,5 @@
+#ignore database files
 *.mdf, *.ldf
+
+#ignore the git hub packages
+packages/
