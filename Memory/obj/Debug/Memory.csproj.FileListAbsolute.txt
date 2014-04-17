@@ -24,3 +24,29 @@ c:\users\dbanazek.cin2\documents\visual studio 2013\Projects\Memory\Memory\bin\S
 c:\users\dbanazek.cin2\documents\visual studio 2013\Projects\Memory\Memory\bin\System.Web.WebPages.xml
 c:\users\dbanazek.cin2\documents\visual studio 2013\Projects\Memory\Memory\bin\System.Web.WebPages.Deployment.xml
 c:\users\dbanazek.cin2\documents\visual studio 2013\Projects\Memory\Memory\bin\System.Web.WebPages.Razor.xml
+C:\Dev Practice\Memory\Memory\bin\Memory.dll.config
+C:\Dev Practice\Memory\Memory\bin\Memory.dll
+C:\Dev Practice\Memory\Memory\bin\Memory.pdb
+C:\Dev Practice\Memory\Memory\bin\Antlr3.Runtime.dll
+C:\Dev Practice\Memory\Memory\bin\Microsoft.Web.Infrastructure.dll
+C:\Dev Practice\Memory\Memory\bin\Newtonsoft.Json.dll
+C:\Dev Practice\Memory\Memory\bin\System.Web.Helpers.dll
+C:\Dev Practice\Memory\Memory\bin\System.Web.Mvc.dll
+C:\Dev Practice\Memory\Memory\bin\System.Web.Optimization.dll
+C:\Dev Practice\Memory\Memory\bin\System.Web.Razor.dll
+C:\Dev Practice\Memory\Memory\bin\System.Web.WebPages.Deployment.dll
+C:\Dev Practice\Memory\Memory\bin\System.Web.WebPages.dll
+C:\Dev Practice\Memory\Memory\bin\System.Web.WebPages.Razor.dll
+C:\Dev Practice\Memory\Memory\bin\WebGrease.dll
+C:\Dev Practice\Memory\Memory\bin\Antlr3.Runtime.pdb
+C:\Dev Practice\Memory\Memory\bin\Newtonsoft.Json.xml
+C:\Dev Practice\Memory\Memory\bin\System.Web.Helpers.xml
+C:\Dev Practice\Memory\Memory\bin\System.Web.Mvc.xml
+C:\Dev Practice\Memory\Memory\bin\System.Web.Optimization.xml
+C:\Dev Practice\Memory\Memory\bin\System.Web.Razor.xml
+C:\Dev Practice\Memory\Memory\bin\System.Web.WebPages.xml
+C:\Dev Practice\Memory\Memory\bin\System.Web.WebPages.Deployment.xml
+C:\Dev Practice\Memory\Memory\bin\System.Web.WebPages.Razor.xml
+C:\Dev Practice\Memory\Memory\obj\Debug\Memory.csprojResolveAssemblyReference.cache
+C:\Dev Practice\Memory\Memory\obj\Debug\Memory.dll
+C:\Dev Practice\Memory\Memory\obj\Debug\Memory.pdb

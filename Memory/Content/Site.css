@@ -61,7 +61,7 @@ input[type="checkbox"].input-validation-error {
 .cardFront{
     height:100px;
     width:150px;
-    background-color:#a7a1a1;   
+    background-color:#037a18;   
 }
 
 .cardBack{
@@ -81,6 +81,18 @@ input[type="checkbox"].input-validation-error {
     margin:10px;
     border:1px double black;
     cursor:pointer;
+}
+
+.emptyContainer {
+	perspective:1000px;
+    height:100px;
+    width:150px;
+    position:relative;
+    float:left;
+    margin:10px;
+    border:1px double black;
+    cursor:default;
+    background-color:#ebe8e8;
 }
 /* flip the pane when hovered */
 	/*.cardContainer:hover .DBflipper, .cardContainer.hover .DBflipper {
@@ -120,5 +132,14 @@ input[type="checkbox"].input-validation-error {
 	-webkit-transform: rotateY(180deg);
     -ms-transform:rotateY(180deg);
     transform: rotateY(180deg);
+    font-size:large;
+    vertical-align:central;
+    text-align:center;
+    line-height:100px;
+}
+
+.selected{
+   border-color: #003fd5;
+   cursor:default;
 }
 
