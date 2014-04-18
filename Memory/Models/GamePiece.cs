@@ -9,5 +9,8 @@ namespace Memory.Models
     {
         public int id { get; set; }
         public string value { get; set; }
+        public string altValue { get; set; }
+        public bool isImageFile { get; set; }
+        public string dataID { get; set; }
     }
 }

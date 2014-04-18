@@ -50,3 +50,14 @@ C:\Dev Practice\Memory\Memory\bin\System.Web.WebPages.Razor.xml
 C:\Dev Practice\Memory\Memory\obj\Debug\Memory.csprojResolveAssemblyReference.cache
 C:\Dev Practice\Memory\Memory\obj\Debug\Memory.dll
 C:\Dev Practice\Memory\Memory\obj\Debug\Memory.pdb
+C:\Dev Practice\Memory\Memory\bin\Microsoft.AspNet.SignalR.Core.dll
+C:\Dev Practice\Memory\Memory\bin\Microsoft.AspNet.SignalR.SystemWeb.dll
+C:\Dev Practice\Memory\Memory\bin\Microsoft.Owin.dll
+C:\Dev Practice\Memory\Memory\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Dev Practice\Memory\Memory\bin\Microsoft.Owin.Security.dll
+C:\Dev Practice\Memory\Memory\bin\Owin.dll
+C:\Dev Practice\Memory\Memory\bin\Microsoft.AspNet.SignalR.Core.xml
+C:\Dev Practice\Memory\Memory\bin\Microsoft.AspNet.SignalR.SystemWeb.xml
+C:\Dev Practice\Memory\Memory\bin\Microsoft.Owin.xml
+C:\Dev Practice\Memory\Memory\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Dev Practice\Memory\Memory\bin\Microsoft.Owin.Security.xml

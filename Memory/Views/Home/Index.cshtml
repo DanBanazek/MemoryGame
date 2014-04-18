@@ -1,13 +1,19 @@
-﻿@model List<Memory.Models.GamePiece>
+﻿@model Memory.Models.Game
 @{
-    ViewBag.Title = "HomePage";}
+    ViewBag.Title = "HomePage";
+ }
+    
 @{
 
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
-<section id="gameArea">    
-    @foreach (var gp in Model){
-    <div class="cardContainer" data-id="@gp.id">
+<section id="gameArea">   
+    @for (int i = 0; i < Model.gameBoard.Count(); i++ ) 
+    {
+        Memory.Models.GamePiece gp = Model.gameBoard[i] as Memory.Models.GamePiece;
+        gp.dataID = i.ToString() + "_" + gp.id.ToString();
+     //string dataID=i.ToString()+"_"+gp.id.ToString();
+    <div class="cardContainer" data-id="@gp.dataID" >
         <div class="DBflipper">
             <div class="cardFront">
             </div>
@@ -17,6 +23,6 @@
         </div>
     </div>
         
-}
+    }
 </section>
 

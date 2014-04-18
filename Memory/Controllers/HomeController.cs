@@ -5,19 +5,33 @@ using System.Web;
 using System.Web.Mvc;
 using Memory.Models;
 using Memory.SupportClasses;
+using Memory.GameServers;
 
 
 namespace Memory.Controllers
 {
     public class HomeController : Controller
     {
+        //IGameServer server;
+        Game game;
+        public HomeController()
+        {
+            if (Games.availableGames == null || Games.availableGames.Count == 0)
+            {
+                Games.availableGames = new List<IGame>();
+                Game g = new Game(1);
+                g.gameBoard=g.GenerateGameBoard(8);
+                Games.availableGames.Add(g);
+            }
+           
+        }
         //
         // GET: /Home/
         public ActionResult Index()
         {
             ViewBag.Sqaures = 8;
-            List<GamePiece> pieces = getPieces();
-            return View(pieces);
+            game=Games.availableGames[0] as Game;
+            return View(game);
         }
 
         private List<GamePiece> getPieces()
