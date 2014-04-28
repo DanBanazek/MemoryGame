@@ -56,6 +56,12 @@ input[type="checkbox"].input-validation-error {
     float:left;
     cursor:default;
 }
+nav{
+   
+    }
+nav li{
+    display:inline;
+}
 
 /*Game Piece Set up Classes*/
 .cardFront{
@@ -81,6 +87,7 @@ input[type="checkbox"].input-validation-error {
     margin:10px;
     border:1px double black;
     cursor:pointer;
+    
 }
 
 .emptyContainer {

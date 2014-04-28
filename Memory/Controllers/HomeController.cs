@@ -12,26 +12,19 @@ namespace Memory.Controllers
 {
     public class HomeController : Controller
     {
-        //IGameServer server;
-        Game game;
+        IGameServer server;
+        //Game game;
         public HomeController()
         {
-            if (Games.availableGames == null || Games.availableGames.Count == 0)
-            {
-                Games.availableGames = new List<IGame>();
-                Game g = new Game(1);
-                g.gameBoard=g.GenerateGameBoard(8);
-                Games.availableGames.Add(g);
-            }
-           
+            server = new SimpleGameServer();           
         }
         //
         // GET: /Home/
         public ActionResult Index()
         {
-            ViewBag.Sqaures = 8;
-            game=Games.availableGames[0] as Game;
-            return View(game);
+            //ViewBag.Sqaures = 8;
+            //game=Games.availableGames[0] as Game;
+            return View(server.GetAvailableRooms());
         }
 
         private List<GamePiece> getPieces()
@@ -48,6 +41,8 @@ namespace Memory.Controllers
            
           return gps;
         }
+
+      
         
 	}
 }

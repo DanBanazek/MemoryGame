@@ -11,6 +11,10 @@ namespace Memory
             bundles.Add(new ScriptBundle("~/bundles/jquery").Include(
                         "~/Scripts/jquery-{version}.js"));
 
+             //<script src="~/Scripts/jquery-ui-1.10.4.min.js"></script>
+            bundles.Add(new ScriptBundle("~/bundles/jqueryUI").Include(
+                       "~/Scripts/jquery-ui-1.10.4.min.js"));
+            
             bundles.Add(new ScriptBundle("~/bundles/jqueryval").Include(
                         "~/Scripts/jquery.validate*"));
 
