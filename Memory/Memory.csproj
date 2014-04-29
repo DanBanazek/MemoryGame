@@ -466,6 +466,8 @@
     <Compile Include="Models\GamePiece.cs" />
     <Compile Include="Models\GameRoom.cs" />
     <Compile Include="Models\IGame.cs" />
+    <Compile Include="Models\MultiPlayerGame.cs" />
+    <Compile Include="Models\SinglePlayerGame.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Startup.cs" />
     <Compile Include="SupportClasses\MyExtensions.cs" />

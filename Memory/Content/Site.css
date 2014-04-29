@@ -62,6 +62,12 @@ nav{
 nav li{
     display:inline;
 }
+#currentTurn{
+    display: block;
+}
+#currentTurn li{
+    display:inline;
+}
 
 /*Game Piece Set up Classes*/
 .cardFront{
