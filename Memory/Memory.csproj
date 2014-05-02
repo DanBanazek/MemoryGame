@@ -116,6 +116,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Scripts\cardanimationsglobal.js" />
+    <Content Include="Scripts\jquery.cookie.js" />
     <Content Include="Scripts\myHubs.js" />
     <Content Include="Scripts\Original Card Flip Code.txt" />
     <Content Include="Views\Shared\_GameBoard.cshtml" />

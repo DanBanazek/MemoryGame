@@ -43,7 +43,7 @@ input[type="checkbox"].input-validation-error {
 }
 
 #gameArea{
-    background-color:#808080;
+    /*background-color:#808080;*/
     width:750px;
     height:auto;
 }
@@ -73,7 +73,9 @@ nav li{
 .cardFront{
     height:100px;
     width:150px;
-    background-color:#037a18;   
+    /*background-color:#037a18;  */
+   /* background-color: #00038C;*/ 
+    background-color: #000E39;
 }
 
 .cardBack{
@@ -155,4 +157,55 @@ nav li{
    border-color: #003fd5;
    cursor:default;
 }
+
+.match, .failed, .bonus{
+    /*font-size:5em;*/
+    vertical-align:central;
+    text-align:center;
+    font-weight:bold;
+    text-shadow:-2px 2px 2px #FE2828;/*#FFFC7C;*/
+    -moz-text-shadow: 3px 3px grey;
+    -webkit-text-shadow: 3px 3px grey;
+    color: #FFFC7C;/*#890404;*/ /*#FCDF00;*/ /*#F6E405;*/
+    position: absolute;
+    height:200px;
+    width:300px;
+    /*transform: translate();    
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(100%, 100%);*/
+    z-index:5;
+}
+
+.match{
+    font-size:4em;
+}
+
+.failed{
+    font-size:50em;
+    line-height:200px;
+    font-family:Arial,Helvetica,sans-serif;
+    color:red;
+}
+.bonus{
+    font-size:3em;
+}
+
+#scoreboard div{
+    display: inline-block;
+    min-height: 100px;
+    margin-left:10px;
+}
+.score{
+    display: inline-block;
+    font-size:3em;
+    padding:10px;
+}
+
+.matchCount{
+   display: inline-block;
+   font-size:2em;
+   padding:10px;
+}
+
 
